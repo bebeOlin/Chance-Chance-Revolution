@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0623CCF8264C92C700DA8752 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0623CCF7264C92C700DA8752 /* SettingsViewController.swift */; };
+		0655CA79265C991400CB1A0E /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A702A7262E4EF400369835 /* LoadingScreenViewController.swift */; };
+		06690250262E0C640029B871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669024F262E0C640029B871 /* AppDelegate.swift */; };
+		06690252262E0C640029B871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06690251262E0C640029B871 /* SceneDelegate.swift */; };
+		06690254262E0C640029B871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06690253262E0C640029B871 /* ViewController.swift */; };
+		06690257262E0C640029B871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06690255262E0C640029B871 /* Main.storyboard */; };
+		06690259262E0C680029B871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06690258262E0C680029B871 /* Assets.xcassets */; };
+		0669025C262E0C680029B871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0669025A262E0C680029B871 /* LaunchScreen.storyboard */; };
+		066B1EEF262F618D0065415B /* Drop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 066B1EEE262F618D0065415B /* Drop.m4a */; };
+		066B1EF0262F618D0065415B /* Drop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 066B1EEE262F618D0065415B /* Drop.m4a */; };
+		066B1EF1262F618D0065415B /* Drop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 066B1EEE262F618D0065415B /* Drop.m4a */; };
+		066B1EF6262F8E090065415B /* Bloop2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 066B1EF5262F8E090065415B /* Bloop2.m4a */; };
+		066B1EF7262F8E090065415B /* Bloop2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 066B1EF5262F8E090065415B /* Bloop2.m4a */; };
+		066B1EF8262F8E090065415B /* Bloop2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 066B1EF5262F8E090065415B /* Bloop2.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06690263262E0C680029B871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06690244262E0C640029B871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0669024B262E0C640029B871;
+			remoteInfo = "Chance Chance Revolution";
+		};
+		0669026E262E0C690029B871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06690244262E0C640029B871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0669024B262E0C640029B871;
+			remoteInfo = "Chance Chance Revolution";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0623CCF7264C92C700DA8752 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0669024C262E0C640029B871 /* Chance Chance Revolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chance Chance Revolution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0669024F262E0C640029B871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06690251262E0C640029B871 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06690253262E0C640029B871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06690256262E0C640029B871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06690258262E0C680029B871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0669025B262E0C680029B871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0669025D262E0C680029B871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06690262262E0C680029B871 /* Chance Chance RevolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chance Chance RevolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0669026D262E0C690029B871 /* Chance Chance RevolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chance Chance RevolutionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		066B1EEE262F618D0065415B /* Drop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Drop.m4a; sourceTree = "<group>"; };
+		066B1EF5262F8E090065415B /* Bloop2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bloop2.m4a; sourceTree = "<group>"; };
+		06A702A7262E4EF400369835 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06690249262E0C640029B871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0669025F262E0C680029B871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0669026A262E0C690029B871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06690243262E0C640029B871 = {
+			isa = PBXGroup;
+			children = (
+				0669024E262E0C640029B871 /* Chance Chance Revolution */,
+				0669024D262E0C640029B871 /* Products */,
+				066B1EE0262F4F7C0065415B /* Sounds */,
+			);
+			sourceTree = "<group>";
+		};
+		0669024D262E0C640029B871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0669024C262E0C640029B871 /* Chance Chance Revolution.app */,
+				06690262262E0C680029B871 /* Chance Chance RevolutionTests.xctest */,
+				0669026D262E0C690029B871 /* Chance Chance RevolutionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0669024E262E0C640029B871 /* Chance Chance Revolution */ = {
+			isa = PBXGroup;
+			children = (
+				0669024F262E0C640029B871 /* AppDelegate.swift */,
+				06690251262E0C640029B871 /* SceneDelegate.swift */,
+				06690253262E0C640029B871 /* ViewController.swift */,
+				06A702A7262E4EF400369835 /* LoadingScreenViewController.swift */,
+				0623CCF7264C92C700DA8752 /* SettingsViewController.swift */,
+				06690255262E0C640029B871 /* Main.storyboard */,
+				06690258262E0C680029B871 /* Assets.xcassets */,
+				0669025A262E0C680029B871 /* LaunchScreen.storyboard */,
+				0669025D262E0C680029B871 /* Info.plist */,
+			);
+			path = "Chance Chance Revolution";
+			sourceTree = "<group>";
+		};
+		066B1EE0262F4F7C0065415B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				066B1EEE262F618D0065415B /* Drop.m4a */,
+				066B1EF5262F8E090065415B /* Bloop2.m4a */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0669024B262E0C640029B871 /* Chance Chance Revolution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06690276262E0C690029B871 /* Build configuration list for PBXNativeTarget "Chance Chance Revolution" */;
+			buildPhases = (
+				06690248262E0C640029B871 /* Sources */,
+				06690249262E0C640029B871 /* Frameworks */,
+				0669024A262E0C640029B871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chance Chance Revolution";
+			productName = "Chance Chance Revolution";
+			productReference = 0669024C262E0C640029B871 /* Chance Chance Revolution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06690261262E0C680029B871 /* Chance Chance RevolutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06690279262E0C690029B871 /* Build configuration list for PBXNativeTarget "Chance Chance RevolutionTests" */;
+			buildPhases = (
+				0669025E262E0C680029B871 /* Sources */,
+				0669025F262E0C680029B871 /* Frameworks */,
+				06690260262E0C680029B871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06690264262E0C680029B871 /* PBXTargetDependency */,
+			);
+			name = "Chance Chance RevolutionTests";
+			productName = "Chance Chance RevolutionTests";
+			productReference = 06690262262E0C680029B871 /* Chance Chance RevolutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0669026C262E0C690029B871 /* Chance Chance RevolutionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0669027C262E0C690029B871 /* Build configuration list for PBXNativeTarget "Chance Chance RevolutionUITests" */;
+			buildPhases = (
+				06690269262E0C690029B871 /* Sources */,
+				0669026A262E0C690029B871 /* Frameworks */,
+				0669026B262E0C690029B871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0669026F262E0C690029B871 /* PBXTargetDependency */,
+			);
+			name = "Chance Chance RevolutionUITests";
+			productName = "Chance Chance RevolutionUITests";
+			productReference = 0669026D262E0C690029B871 /* Chance Chance RevolutionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06690244262E0C640029B871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0669024B262E0C640029B871 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					06690261262E0C680029B871 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0669024B262E0C640029B871;
+					};
+					0669026C262E0C690029B871 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0669024B262E0C640029B871;
+					};
+				};
+			};
+			buildConfigurationList = 06690247262E0C640029B871 /* Build configuration list for PBXProject "Chance Chance Revolution" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06690243262E0C640029B871;
+			productRefGroup = 0669024D262E0C640029B871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0669024B262E0C640029B871 /* Chance Chance Revolution */,
+				06690261262E0C680029B871 /* Chance Chance RevolutionTests */,
+				0669026C262E0C690029B871 /* Chance Chance RevolutionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0669024A262E0C640029B871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0669025C262E0C680029B871 /* LaunchScreen.storyboard in Resources */,
+				06690259262E0C680029B871 /* Assets.xcassets in Resources */,
+				066B1EF6262F8E090065415B /* Bloop2.m4a in Resources */,
+				06690257262E0C640029B871 /* Main.storyboard in Resources */,
+				066B1EEF262F618D0065415B /* Drop.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06690260262E0C680029B871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066B1EF0262F618D0065415B /* Drop.m4a in Resources */,
+				066B1EF7262F8E090065415B /* Bloop2.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0669026B262E0C690029B871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066B1EF1262F618D0065415B /* Drop.m4a in Resources */,
+				066B1EF8262F8E090065415B /* Bloop2.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06690248262E0C640029B871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06690254262E0C640029B871 /* ViewController.swift in Sources */,
+				06690250262E0C640029B871 /* AppDelegate.swift in Sources */,
+				0655CA79265C991400CB1A0E /* LoadingScreenViewController.swift in Sources */,
+				06690252262E0C640029B871 /* SceneDelegate.swift in Sources */,
+				0623CCF8264C92C700DA8752 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0669025E262E0C680029B871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06690269262E0C690029B871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06690264262E0C680029B871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0669024B262E0C640029B871 /* Chance Chance Revolution */;
+			targetProxy = 06690263262E0C680029B871 /* PBXContainerItemProxy */;
+		};
+		0669026F262E0C690029B871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0669024B262E0C640029B871 /* Chance Chance Revolution */;
+			targetProxy = 0669026E262E0C690029B871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06690255262E0C640029B871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06690256262E0C640029B871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0669025A262E0C680029B871 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0669025B262E0C680029B871 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06690274262E0C690029B871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06690275262E0C690029B871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06690277262E0C690029B871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 4G42J97XH2;
+				INFOPLIST_FILE = "Chance Chance Revolution/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "games.gingerail.Chance-Chance-Revolution";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		06690278262E0C690029B871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 4G42J97XH2;
+				INFOPLIST_FILE = "Chance Chance Revolution/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "games.gingerail.Chance-Chance-Revolution";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0669027A262E0C690029B871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4G42J97XH2;
+				INFOPLIST_FILE = "Chance Chance RevolutionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "games.gingerail.Chance-Chance-RevolutionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chance Chance Revolution.app/Chance Chance Revolution";
+			};
+			name = Debug;
+		};
+		0669027B262E0C690029B871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4G42J97XH2;
+				INFOPLIST_FILE = "Chance Chance RevolutionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "games.gingerail.Chance-Chance-RevolutionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chance Chance Revolution.app/Chance Chance Revolution";
+			};
+			name = Release;
+		};
+		0669027D262E0C690029B871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4G42J97XH2;
+				INFOPLIST_FILE = "Chance Chance RevolutionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "games.gingerail.Chance-Chance-RevolutionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chance Chance Revolution";
+			};
+			name = Debug;
+		};
+		0669027E262E0C690029B871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4G42J97XH2;
+				INFOPLIST_FILE = "Chance Chance RevolutionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "games.gingerail.Chance-Chance-RevolutionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chance Chance Revolution";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06690247262E0C640029B871 /* Build configuration list for PBXProject "Chance Chance Revolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06690274262E0C690029B871 /* Debug */,
+				06690275262E0C690029B871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06690276262E0C690029B871 /* Build configuration list for PBXNativeTarget "Chance Chance Revolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06690277262E0C690029B871 /* Debug */,
+				06690278262E0C690029B871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06690279262E0C690029B871 /* Build configuration list for PBXNativeTarget "Chance Chance RevolutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0669027A262E0C690029B871 /* Debug */,
+				0669027B262E0C690029B871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0669027C262E0C690029B871 /* Build configuration list for PBXNativeTarget "Chance Chance RevolutionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0669027D262E0C690029B871 /* Debug */,
+				0669027E262E0C690029B871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06690244262E0C640029B871 /* Project object */;
+}
